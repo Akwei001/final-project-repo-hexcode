@@ -4,6 +4,6 @@
 
 export const ENV_TYPE_IS_DEVELOPMENT = "DEVELOPMENT"; // do not changed - set up  in .env, and in Heroku  twice (one on staging app; once on prod app)
 // export const ENV_TYPE_IS_STAGING = "STAGING"; //do not change - set in Heroku staging App
-// export const ENV_TYPE_IS_PRODUCTION = "PRODUCTION"; //do not change - set in Heroku Live App
+export const ENV_TYPE_IS_PRODUCTION = "PRODUCTION"; //do not change - set in Heroku Live App
 export const DATABASE_URL = process.env.DATABASE_URL;
 export const ENV_TYPE = process.env.ENV_TYPE;
